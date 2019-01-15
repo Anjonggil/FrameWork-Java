@@ -24,21 +24,21 @@ public class AreaXY {
 	}
 
 	public void input(){
-			System.out.println("x값을 입력해 주세요: ");
+			System.out.println("x 醫뚰몴: ");
 			int x = scan.nextInt();
 			setX(x);
-			System.out.println("y값을 입력해 주세요: ");
+			System.out.println("y 醫뚰몴: ");
 			int y = scan.nextInt();
 			setY(y);
 	}
 	public void inputX(){
-		System.out.println("x값을 입력해 주세요: ");
+		System.out.println("x 醫뚰몴: ");
 		int x = scan.nextInt();
 		setX(x);
 		setY(0);
 	}
 	public void inputY(){
-		System.out.println("y값을 입력해 주세요: ");
+		System.out.println("y 醫뚰몴: ");
 		int y = scan.nextInt();
 		setX(0);
 		setY(y);

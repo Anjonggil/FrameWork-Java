@@ -2,6 +2,8 @@ package Javastudy;
 
 public class Dog extends Animal {
 	public void sleep(){
-		System.out.println(this.name+"zzz");
+		Dog dog = new Dog();
+		dog.setName("poppy");
+		System.out.println(dog.name);
 	}
 }
